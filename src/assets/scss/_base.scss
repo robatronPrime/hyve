@@ -1,0 +1,16 @@
+img {
+  width: 100%;
+}
+
+a {
+  color: $primary;
+  font-weight: 700;
+  text-decoration: none;
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: darken($primary, 20%);
+    text-decoration: underline;
+  }
+}
